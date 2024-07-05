@@ -129,13 +129,14 @@
   
   .images-container {
     flex: 1;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     padding: 20px;
     box-shadow: var(--box-shadow);
     border-radius: 10px;
     max-width: 30%; 
     height: auto; 
+  
   }
   .text-container {
     min-width: 300px;
@@ -144,10 +145,12 @@
     box-shadow: var(--box-shadow);
     padding: 20px;
     border-radius: 10px;
+  
   }
   
   .text-container li {
-    list-style-type: "🎖️";
+    /* list-style-type: "🎖️"; */
+    content: "✈️ ";
   }
   
   /* Footer style */
